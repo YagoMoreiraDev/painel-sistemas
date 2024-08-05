@@ -1,0 +1,25 @@
+/*Config MAIN-CARD*/
+.container-card {
+    width: 140px;
+    height: 130px;
+    margin: 20px;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 0.8em;
+    font-weight: 700;
+    background-color: #f5f7fa;
+    border: 1px solid #dbdbdb;
+    border-radius: .3rem;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-card img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 0.5rem;
+}

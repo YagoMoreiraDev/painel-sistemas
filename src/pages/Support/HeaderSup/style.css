@@ -1,0 +1,38 @@
+.sidebar {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: #181C2e;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar div {
+    background: url('../../../assets/sup-cotic.jpg');
+    background-color: #181C2e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.sidebar div {
+    padding-top: 50px;
+}
+.sidebar div img {
+    width: 50px;
+    justify-content: end;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.sidebar a {
+    display: flex;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    align-items: center;
+    transition: ease-in-out 0.4s;
+    gap: 10px;
+}
+.sidebar a:hover {
+    background-color: #1f2a4b;
+}
